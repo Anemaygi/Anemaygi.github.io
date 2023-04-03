@@ -23,7 +23,7 @@ function loadContent(url) {
       .catch(error => console.log(error));
   } 
   else if (url === 'resume'){
-    const urlcv = "https://drive.google.com/uc?export=download&id=1VcFq2NLkNFlFwZXJLxO6uynK5czSQU6z";
+    const urlcv = "https://drive.google.com/uc?export=download&id=1OmtnlYn_Ar4IhaErO8TEUAH_sjCjSKqO";
     const pdfcv = "src/ProfessionalCV_En.pdf"
     const div = document.getElementById("contentstuff");
     div.innerHTML = `
