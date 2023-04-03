@@ -8,21 +8,29 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/x-icon" href="src/fav.png">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body onload="loadContent('pages/about.html')">
   <div class="conteiner">
     <div class="tres">
       <div id="navbar">
-        
-        <p><h2> Hi, I'm Giane!</h2></p>
-        <p><a href="#" onclick="loadContent('pages/about.html')">About</a></p>
-        <p><a href="#" onclick="loadContent('projects')" id="projects-link">Projects</a></p>
-        <p><a href="#" onclick="loadContent('experience')">Experience</a></p>
-        <p><a href="#" onclick="loadContent('pages/resume.html')">Resume</a></p> 
+
+        <p><img src="src/img.png" width="120px"/></p>
+        <h2> Hi, I'm Giane!</h2>
+        <p><a onclick="loadContent('pages/about.html')">About</a></p>
+        <p><a onclick="loadContent('projects')" id="projects-link">Projects</a></p>
+<!-- 
+        Tirando o experience - talvez adicione novamente depois
+        <p><a onclick="loadContent('experience')">Experience</a></p>
+         -->
+        <p><a onclick="loadContent('pages/contact.html')">Contact</a></p> 
+        <p><a onclick="loadContent('resume')">Resume</a></p> 
       </div>
-      <div id="content"></div>
+      <div id="content"><div id="contentstuff" class="contentstuff"></div></div>
     </div>
   </div>
   
