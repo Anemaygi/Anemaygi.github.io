@@ -105,9 +105,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-  .child {
+  .items {
     width: 100%;
   }
+
 }
 
 iframe{
@@ -157,6 +158,8 @@ h1, h2{
     flex-direction: column;
     overflow: auto;
   }
+
+  p{text-align: center;}
 
   .items {
     width: 50%;
