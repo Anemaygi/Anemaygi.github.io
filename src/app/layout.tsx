@@ -8,8 +8,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "PET SITES BOILERPLATE",
-  description: "Templates para projetos criados no setor de Sites do PET-SI",
+  title: "Giane Mayumi 👋",
+  description: "Hi, I'm Giane Mayumi and this is my personal website. Currently, I am pursuing a Master's degree in Computer Science at McGill University.",
 };
 
 export default function RootLayout({
@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body
         className={`${poppins.className}`}
       >
